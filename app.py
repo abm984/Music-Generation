@@ -71,7 +71,7 @@ def main():
     st.title("Make some Noise🎵")
 
     with st.expander("See explanation"):
-        st.write("Music Generator app built using Meta's Audiocraft library. We are using Music Gen Small model.")
+        st.write("Make some noise with Music and your own style")
 
     text_area = st.text_area("Enter your description.......")
     time_slider = st.slider("Select time duration (In Seconds)", 0, 20, 10)
